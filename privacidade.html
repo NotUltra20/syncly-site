@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de Privacidade - Syncly</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap doc">
+<header><div class="logo"><a href="index.html" style="text-decoration:none;color:inherit">Sync<span>ly</span></a></div><nav><a href="#en">English</a></nav></header>
+<h1>Política de Privacidade</h1><p><strong>Vigência:</strong> 21/10/2026</p>
+<p>Esta política explica como o app Android <strong>Syncly - Watch Together</strong> (“Syncly”, “app”) trata informações. O Syncly <strong>não possui contas de usuário</strong>, não tem servidor próprio que armazene seus dados e não utiliza SDKs de análise, publicidade ou relatório de falhas.</p>
+<h2>1. Dados armazenados apenas no seu aparelho</h2><ul>
+<li><strong>Perfil:</strong> o apelido (nome de exibição) e as escolhas de avatar que você define ficam salvos localmente no aparelho.</li>
+<li><strong>Preferências do app:</strong> pequenas configurações de funcionamento ficam salvas localmente.</li>
+<li><strong>Logins nos serviços de streaming:</strong> ao entrar no YouTube, Max, Crunchyroll ou Pluto TV dentro do app, você faz login diretamente no site oficial do serviço. Os cookies e dados de sessão criados por esses sites ficam no armazenamento do navegador interno (WebView) do seu aparelho. O Syncly não lê, coleta nem envia suas senhas ou credenciais.</li></ul>
+<p>Você pode apagar esses dados a qualquer momento limpando os dados do app ou desinstalando-o. O Android pode incluir dados do app no backup do seu dispositivo/conta Google, conforme as suas configurações de backup.</p>
+<h2>2. Dados compartilhados durante uma party</h2>
+<p>Quando você cria ou entra em uma party, o app troca com os outros participantes: seu apelido e avatar, mensagens de chat, reações, GIFs enviados, e informações de reprodução (qual conteúdo/endereço está sendo assistido, posição, pausa/play). Essa comunicação acontece preferencialmente de forma direta entre os aparelhos (WebRTC, criptografado). As mensagens do chat existem apenas durante a sessão e <strong>não são salvas</strong> pelo Syncly após você sair.</p>
+<p>Ao participar da conexão direta, os aparelhos naturalmente veem informações técnicas de rede, como endereços IP.</p>
+<h2>3. Serviços de terceiros utilizados</h2>
+<table><tr><th>Serviço</th><th>Finalidade</th></tr>
+<tr><td>Brokers MQTT públicos: broker.emqx.io (EMQX), broker.hivemq.com (HiveMQ), test.mosquitto.org (Eclipse Mosquitto)</td><td>Sinalização para conectar os aparelhos da party (código da party, dados técnicos de conexão WebRTC e reserva temporária do código). Não transmitem vídeo.</td></tr>
+<tr><td>Servidores STUN: Google (stun.l.google.com) e Cloudflare (stun.cloudflare.com); STUN/TURN da Metered (openrelay.metered.ca)</td><td>Descobrir rotas de rede e, quando a conexão direta não é possível, retransmitir o tráfego da party (sincronização e chat).</td></tr>
+<tr><td>DiceBear (api.dicebear.com)</td><td>Gerar a imagem do avatar a partir das opções escolhidas.</td></tr>
+<tr><td>Giphy / provedor de GIFs do seu teclado</td><td>Exibir GIFs enviados no chat (as imagens são carregadas dos servidores do provedor).</td></tr>
+<tr><td>YouTube, Max, Crunchyroll, Pluto TV</td><td>Os sites oficiais são abertos dentro do app; seu uso é regido pelas políticas de privacidade e termos de cada serviço, incluindo seus anúncios.</td></tr></table>
+<p>Esses provedores podem registrar informações técnicas como endereço IP, conforme suas próprias políticas. Os brokers MQTT são públicos; o Syncly não envia por eles mensagens de chat nem o conteúdo assistido.</p>
+<h2>4. O que não fazemos</h2><ul><li>Não vendemos dados.</li><li>Não usamos rastreadores de análise nem publicidade própria.</li><li>Não solicitamos permissões de câmera, microfone, localização ou contatos (o app usa apenas acesso à internet e ao estado da rede).</li></ul>
+<h2>5. Crianças</h2><p>O Syncly não é direcionado a menores de 13 anos. Os serviços de streaming têm suas próprias regras de idade.</p>
+<h2>6. Seus direitos (LGPD)</h2><p>Como os dados ficam no seu aparelho, você mesmo pode excluí-los. Para dúvidas, entre em contato.</p>
+<h2>7. Alterações</h2><p>Esta política pode ser atualizada; a data de vigência acima indicará a versão atual.</p>
+<h2>8. Contato</h2><p><a href="mailto:syncly.watchtogether@gmail.com">syncly.watchtogether@gmail.com</a></p>
+
+<h1 id="en" style="margin-top:72px">Privacy Policy (English)</h1><p><strong>Effective date:</strong> October 21, 2026</p>
+<p>This policy explains how the Android app <strong>Syncly - Watch Together</strong> handles information. Syncly has <strong>no user accounts</strong>, no own server storing your data, and uses no analytics, advertising or crash-reporting SDKs.</p>
+<h2>1. Data stored only on your device</h2><ul>
+<li><strong>Profile:</strong> your nickname (display name) and avatar choices are saved locally.</li>
+<li><strong>App preferences:</strong> small operational settings are saved locally.</li>
+<li><strong>Streaming logins:</strong> when you sign in to YouTube, Max, Crunchyroll or Pluto TV inside the app, you sign in directly on the service's official website. Cookies and session data created by those sites stay in the in-app browser (WebView) storage on your device. Syncly does not read, collect or transmit your passwords or credentials.</li></ul>
+<p>You can delete this data at any time by clearing the app's data or uninstalling it. Android may include app data in your device/Google backup depending on your backup settings.</p>
+<h2>2. Data shared during a party</h2>
+<p>When you create or join a party, the app exchanges with other participants: your nickname and avatar, chat messages, reactions, GIFs, and playback information (what content/URL is playing, position, play/pause). This happens preferably directly between devices (WebRTC, encrypted). Chat messages exist only during the session and are <strong>not stored</strong> by Syncly afterwards. Direct connections inherently expose technical network data such as IP addresses to participants.</p>
+<h2>3. Third-party services used</h2>
+<ul><li><strong>Public MQTT brokers</strong> (broker.emqx.io, broker.hivemq.com, test.mosquitto.org): signaling to connect party devices (party code, WebRTC connection data, temporary code reservation). No video, chat or watched content is sent through them.</li>
+<li><strong>STUN/TURN servers</strong> (Google, Cloudflare, Metered openrelay.metered.ca): network route discovery and, when direct connection fails, relaying party traffic.</li>
+<li><strong>DiceBear</strong> (api.dicebear.com): generating avatar images.</li>
+<li><strong>Giphy / your keyboard's GIF provider</strong>: loading GIFs shown in chat.</li>
+<li><strong>YouTube, Max, Crunchyroll, Pluto TV</strong>: official websites opened inside the app, governed by their own privacy policies and terms, including their ads.</li></ul>
+<p>These providers may log technical information such as IP address under their own policies.</p>
+<h2>4. What we don't do</h2><ul><li>We don't sell data.</li><li>No analytics trackers or own advertising.</li><li>No camera, microphone, location or contacts permissions (only internet and network-state access).</li></ul>
+<h2>5. Children</h2><p>Syncly is not directed to children under 13.</p>
+<h2>6. Changes</h2><p>We may update this policy; the effective date above reflects the current version.</p>
+<h2>7. Contact</h2><p><a href="mailto:syncly.watchtogether@gmail.com">syncly.watchtogether@gmail.com</a></p>
+<footer><p><a href="index.html">← Syncly</a> · Syncly is not affiliated with YouTube/Google, Warner Bros. Discovery/Max, Crunchyroll or Pluto TV/Paramount.</p></footer>
+</div></body></html>
